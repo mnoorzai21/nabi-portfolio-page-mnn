@@ -12,58 +12,66 @@
 
 
 <body>
-    <header class="header">
-        <h1>Na<span class="b">b</span>i</h1>
-        <form calss-="nav">
+    <header>
+
+        <nav class="header">
+            <h1>Na<span class="b">b</span>i</h1>
             <ul>
-                <li><a href="#">About Me</a></li>
+                <li><a href="https://google.com">About Me</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Contact Me</a></li>
                 <li>
                     <a href="#">Resume</a></li>
             </ul>
-        </form>
-        <div>
-            <img calss="img" src="./assets/img/header.jpeg" alt="">
-            <h3>Mohammad Nabi Noorzai</h3>
-        </div>
+        </nav>
+        <figure class="subtitle">
+            <h2>Welcome To Nabi's Portfolio!!</h2>
+        </figure>
     </header>
     <main>
-        <section>
+        <article class="about-me">
             <h2>About Me</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni deleniti laborum tenetur voluptatem culpa facilis reiciendis ratione dolorum libero illum dolor eum, necessitatibus est distinctio temporibus atque explicabo minima? Sunt corporis quaerat
-                obcaecati nobis velit, unde aliquid iste, hic suscipit minima omnis quis laboriosam molestias labore.
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni deleniti laborum tenetur voluptatem culpa facilis reiciendis ratione dolorum libero illum dolor eum, necessitatibus est distinctio temporibus atque explicabo minima? Sunt corporis quaerat
+                    obcaecati nobis velit, unde aliquid iste, hic suscipit minima omnis quis laboriosam molestias labore.</p>
                 <p> Eligendi, sed harum? Maxime, praesentium veniam eligendi soluta quo odit repellat eaque nam. Tempora officiis excepturi magni numquam possimus similique delectus. Repellat autem voluptatem accusamus numquam minima suscipit magni nesciunt
                     sed repudiandae cum ratione reiciendis corrupti distinctio ab quis repellendus atque, assumenda facere?
                 </p>
-            </p>
-        </section>
-        <section>
+            </div>
+        </article>
+        <section class="descriptions">
             <h2>Work</h2>
-            <div>
-                <h3>Surf Report</h3>
-                <h5>MERN Stack</h5>
+
+            <h3>Surf Report</h3>
+            <h5>MERN Stack</h5>
+            <div class="card1">
+                <img src="./assets/img/header.jpeg" alt="">
+            </div>
+
+            <h3>Run Buddy</h3>
+            <h5>HTML/CSS</h5>
+            <div class="cards">
                 <img src="./assets/img/main-img.jpeg" alt="">
             </div>
-            <div>
-                <h3>LED Wall</h3>
-                <h5>Node/IoT</h5>
+            <h3>LED Wall</h3>
+            <h5>Node/IoT</h5>
+            <div class="cards">
                 <img src="./assets/img/1.jpeg" alt="">
             </div>
-            <div>
-                <h3>Calculator</h3>
-                <h5>React/JavaScript/CSS</h5>
+
+            <h3>Calculator</h3>
+            <h5>React/JavaScript/CSS</h5>
+            <div class="cards">
                 <img src="./assets/img/2.jpeg" alt="">
             </div>
-            <div>
-                <h3>Pastel Puzzels</h3>
-                <h5>React/JavaScript/CSS</h5>
+
+            <h3>Pastel Puzzels</h3>
+            <h5>React/JavaScript/CSS</h5>
+            <div class="cards">
                 <img src="./assets/img/4.jpeg" alt="">
             </div>
-        </section>
-        <nav>
-            <nav>
+            <div class="contact-me">
                 <h2>Contact Me</h2>
                 <ul>
                     <li><a href="#">
@@ -77,9 +85,11 @@
                     <li><a href="#">Spotify</a></li>
 
                 </ul>
-            </nav>
+            </div>
+        </section>
+
     </main>
-    <footer>
+    <footer class="footer">
         <p>© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.</p>
     </footer>
 </body>
