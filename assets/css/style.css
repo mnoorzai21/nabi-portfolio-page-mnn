@@ -49,12 +49,6 @@ p {
     padding: 10px 20px 10px 70px;
     background-color: rgb(12, 94, 94);
     font-size: 50px;
-    align-content: ;
-}
-
-nav a:hover {
-    background-size: 100% 100%;
-    color: var(--primary);
 }
 
 .header li {
@@ -102,7 +96,7 @@ figure h2 {
     display: flex;
     margin: 25px 0;
     padding: 10px 0;
-    color: rgb(39, 23, 23);
+    color: #2c3d43;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
@@ -245,6 +239,7 @@ figure h2 {
     text-align: center;
     border: solid 3px #82cde8;
     width: 100%;
+    color: #2c3d43;
 }
 
 
