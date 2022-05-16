@@ -167,33 +167,34 @@ figure h2 {
 .surf-report {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(../img/main-img.jpeg);
+    background-image: url(../img/project-2.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .react-calc {
-    background-image: url(../img/6.jpeg);
+    background-image: url(../img/project-1.png);
     background-position: center;
     background-size: cover;
 }
 
 .run-buddy {
-    background-image: url(../img/1.jpeg);
+    background-image: url(../img/code-quiz-img.png);
     background-position: center;
     background-size: cover;
 }
 
 .led-wall {
-    background-image: url(../img/3.jpeg);
+    background-image: url(../img/weather-dashboard.png);
     background-position: center;
     background-size: cover;
 }
 
 .pastel-puzzles {
-    background-image: url(../img/9.jpeg);
+    background-image: url(../img/password-generator.png);
     background-position: center;
     background-size: cover;
+    color: #2c3d43;
 }
 
 .card:hover {
@@ -207,20 +208,19 @@ figure h2 {
 .contact-me {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #2c3d43;
-    align-items: flex-end;
 }
 
-.contact-me h2 {
+.contact-me>h2 {
     flex: 0 0 20%;
+    text-align: right;
     padding-right: 15px;
     border-right: 4px solid #82cde8;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.1;
     color: #2c3d43;
-    margin-right: 50px;
 }
 
 .contact-me a {
@@ -229,6 +229,11 @@ figure h2 {
     border-bottom: solid 3px #2c3d43;
     color: #2c3d43;
     margin: 30px 50px 0 50px;
+}
+
+.contact-me>div {
+    text-align: center;
+    padding-right: 30%;
 }
 
 
@@ -245,29 +250,49 @@ figure h2 {
 
 /* My Media Query */
 
-@media screen and (max-width: 992px) {
-    .card {
-        width: 50%;
-    }
+@media screen and (max-width: 980px) {
     header {
-        background: #772014;
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+    header nav {
+        justify-content: center;
+    }
+    .about-me>h2,
+    .about-me>div {
+        flex: 0 0 100%;
+    }
+    .about-me>h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .card {
-        width: 100%;
+    .card,
+    .card:first-child {
+        flex-basis: 100%;
     }
-    header {
-        background: #8ac4ff;
+    .card:first-child {
+        min-height: 150px;
     }
-}
-
-@media screen and (max-width: 576px) {
-    .card {
-        width: 100%;
+    .subtitle {
+        justify-content: center;
+        text-align: center;
     }
-    header {
-        background: #bcda6c;
+    .contact-me div {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
