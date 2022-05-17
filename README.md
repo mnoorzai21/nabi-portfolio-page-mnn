@@ -4,4 +4,3 @@
  The excitement of being  a software developer motivates me to work hard. Besides the homework assignment I have really learned a lot of things from this project. This website represents my professional portfolio.
 First of all, I made a professional portfolio for myself, second, I improved my writing of HTML and CSS codes skills and lastly, I have improved my debugging skills. This project will introduce me and will have more information about myself. 
 
-<img src ="./assets/img/portfolio-screenshot.png">
